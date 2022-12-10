@@ -49,7 +49,7 @@ def main():
         for y in range(len(grid[x])):
             total += checkVisibility(grid, x, y)
     print(f"Total: {total}")
-
+    file.close()
 
 if (__name__ == "__main__"):
     main()

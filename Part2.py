@@ -73,7 +73,7 @@ def main():
         for y in range(len(grid[x])):
             topView = checkVisibility(grid, x, y, topView)
     print(f"Top Visibility: {topView}")
-
+    file.close()
 
 if (__name__ == "__main__"):
     main()
